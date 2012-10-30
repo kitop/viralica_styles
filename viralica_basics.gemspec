@@ -6,11 +6,11 @@ require 'viralica_basics/version'
 Gem::Specification.new do |gem|
   gem.name          = "viralica_basics"
   gem.version       = ViralicaBasics::VERSION
-  gem.authors       = ["Esteban Pastorino"]
-  gem.email         = ["ejpastorino@gmail.com"]
-  gem.description   = %q{Viralica Basic Styles}
+  gem.authors       = ["Esteban Pastorino", "Ignacio Gutierrez"]
+  gem.email         = ["tech@virali.ca"]
   gem.summary       = %q{Viralica Basic Styles}
-  gem.homepage      = ""
+  gem.description   = %q{Viralica Basic Styles}
+  gem.homepage      = "http://virali.ca"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
