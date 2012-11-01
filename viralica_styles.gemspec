@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'viralica_basics/version'
+require 'viralica_styles/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "viralica_basics"
-  gem.version       = ViralicaBasics::VERSION
+  gem.name          = "viralica_styles"
+  gem.version       = ViralicaStyles::VERSION
   gem.authors       = ["Esteban Pastorino", "Ignacio Gutierrez"]
   gem.email         = ["tech@virali.ca"]
   gem.summary       = %q{Viralica Basic Styles}

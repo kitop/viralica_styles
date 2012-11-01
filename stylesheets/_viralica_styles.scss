@@ -217,6 +217,9 @@ p{
     @include nth-omega;
     a{
       border-left:solid 1px rgba(255, 255, 255, 0.4);
+      &:first-child{
+        border-left: none;
+      }
     }
   }
   &.spider{
